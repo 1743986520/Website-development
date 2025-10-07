@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常見問題解答</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        
+        .faq-item {
+            margin-bottom: 25px;
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .question {
+            background-color: #3498db;
+            color: white;
+            padding: 18px 20px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .question:hover {
+            background-color: #2980b9;
+        }
+        
+        .answer {
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #555;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            color: white;
+            padding: 14px 35px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+            text-decoration: none;
+        }
+        
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(52, 152, 219, 0.4);
+            background: linear-gradient(to right, #2980b9, #34495e);
+        }
+        
+        .button:active {
+            transform: translateY(1px);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .question {
+                font-size: 1.1rem;
+                padding: 15px;
+            }
+            
+            .answer {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>常见问题解答</h1>
+        
+        <div class="faq-item">
+            <div class="question">
+                <span>要用哪個雲端?</span>
+            </div>
+            <div class="answer">
+                <p>不限制，但是建議Google雲端，應為她不太會刪除黃色</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="question">
+                <span>用甚麼壓縮格式？</span>
+            </div>
+            <div class="answer">
+                <p>建議用.zip這類原生是配的壓縮方式，防止他們因為解壓問題來找我們，而且windows的遊戲縮檔建議不要設置密碼，但是安卓的apk建議壓縮加密碼，應為容易被Google當成病毒</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="question">
+                <span>雲端空間不夠怎麼辦？</span>
+            </div>
+            <div class="answer">
+                <p>去主頁填表申請</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="question">
+                <span>有什麼要注意的</span>
+            </div>
+            <div class="answer">
+                <p>遊戲解釋只能一行，這是bug我還沒修正，沒時間</p>
+            </div>
+        </div>
+
+     </div>
+        
+        <div class="button-container">
+            <!-- 修改这里的文字即可改变按钮显示 -->
+            <a href="https://1743986520.github.io/Website-development/" class="button">返回</a>
+        </div>
+    </div>
+</body>
+</html>
